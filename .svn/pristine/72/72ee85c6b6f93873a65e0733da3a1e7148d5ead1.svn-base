@@ -1,0 +1,31 @@
+import { EventEmitter, TemplateRef } from '@angular/core';
+import * as ɵngcc0 from '@angular/core';
+export declare class DatatableGroupHeaderDirective {
+    /**
+     * Row height is required when virtual scroll is enabled.
+     */
+    rowHeight: number | ((group?: any, index?: number) => number);
+    _templateInput: TemplateRef<any>;
+    _templateQuery: TemplateRef<any>;
+    readonly template: TemplateRef<any>;
+    /**
+     * Track toggling of group visibility
+     */
+    toggle: EventEmitter<any>;
+    /**
+     * Toggle the expansion of a group
+     */
+    toggleExpandGroup(group: any): void;
+    /**
+     * Expand all groups
+     */
+    expandAllGroups(): void;
+    /**
+     * Collapse all groups
+     */
+    collapseAllGroups(): void;
+    static ɵfac: ɵngcc0.ɵɵFactoryDef<DatatableGroupHeaderDirective, never>;
+    static ɵdir: ɵngcc0.ɵɵDirectiveDefWithMeta<DatatableGroupHeaderDirective, "ngx-datatable-group-header", never, { "rowHeight": "rowHeight"; "_templateInput": "template"; }, { "toggle": "toggle"; }, ["_templateQuery"]>;
+}
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYm9keS1ncm91cC1oZWFkZXIuZGlyZWN0aXZlLmQudHMiLCJzb3VyY2VzIjpbImJvZHktZ3JvdXAtaGVhZGVyLmRpcmVjdGl2ZS5kLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUNBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQXdCQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEV2ZW50RW1pdHRlciwgVGVtcGxhdGVSZWYgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmV4cG9ydCBkZWNsYXJlIGNsYXNzIERhdGF0YWJsZUdyb3VwSGVhZGVyRGlyZWN0aXZlIHtcbiAgICAvKipcbiAgICAgKiBSb3cgaGVpZ2h0IGlzIHJlcXVpcmVkIHdoZW4gdmlydHVhbCBzY3JvbGwgaXMgZW5hYmxlZC5cbiAgICAgKi9cbiAgICByb3dIZWlnaHQ6IG51bWJlciB8ICgoZ3JvdXA/OiBhbnksIGluZGV4PzogbnVtYmVyKSA9PiBudW1iZXIpO1xuICAgIF90ZW1wbGF0ZUlucHV0OiBUZW1wbGF0ZVJlZjxhbnk+O1xuICAgIF90ZW1wbGF0ZVF1ZXJ5OiBUZW1wbGF0ZVJlZjxhbnk+O1xuICAgIHJlYWRvbmx5IHRlbXBsYXRlOiBUZW1wbGF0ZVJlZjxhbnk+O1xuICAgIC8qKlxuICAgICAqIFRyYWNrIHRvZ2dsaW5nIG9mIGdyb3VwIHZpc2liaWxpdHlcbiAgICAgKi9cbiAgICB0b2dnbGU6IEV2ZW50RW1pdHRlcjxhbnk+O1xuICAgIC8qKlxuICAgICAqIFRvZ2dsZSB0aGUgZXhwYW5zaW9uIG9mIGEgZ3JvdXBcbiAgICAgKi9cbiAgICB0b2dnbGVFeHBhbmRHcm91cChncm91cDogYW55KTogdm9pZDtcbiAgICAvKipcbiAgICAgKiBFeHBhbmQgYWxsIGdyb3Vwc1xuICAgICAqL1xuICAgIGV4cGFuZEFsbEdyb3VwcygpOiB2b2lkO1xuICAgIC8qKlxuICAgICAqIENvbGxhcHNlIGFsbCBncm91cHNcbiAgICAgKi9cbiAgICBjb2xsYXBzZUFsbEdyb3VwcygpOiB2b2lkO1xufVxuIl19
